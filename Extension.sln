@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension", "Extension\Extension.csproj", "{C7AF12D8-1320-4AF8-85A8-C60D083C29EC}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ExtensionSetup", "ExtensionSetup\ExtensionSetup.vdproj", "{AD1235CC-C26C-4CF3-9F81-60EC142B1793}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7AF12D8-1320-4AF8-85A8-C60D083C29EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AF12D8-1320-4AF8-85A8-C60D083C29EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AF12D8-1320-4AF8-85A8-C60D083C29EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AF12D8-1320-4AF8-85A8-C60D083C29EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD1235CC-C26C-4CF3-9F81-60EC142B1793}.Debug|Any CPU.ActiveCfg = Debug
+		{AD1235CC-C26C-4CF3-9F81-60EC142B1793}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

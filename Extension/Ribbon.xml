@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI onLoad="Ribbon_Load" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+    <ribbon>
+        <tabs>
+            <tab idMso="TabAddIns">
+                <group id="group1" label="group1" />
+            </tab>
+            <tab id="workload_tab" label="878 workload">
+                <group id="workloadGroup" label="workload">
+                    <button id="assignButton" onAction="assignButton_Click" label="Project Monitoring" size="large" />
+                </group>
+            </tab>
+        </tabs>
+    </ribbon>
+</customUI>
